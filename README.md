@@ -4,7 +4,7 @@ Builder Fluency Pattern
 ## Person Class & Builder
 ```mermaid
 classDiagram
-     Person *--  | Builder
+     Person *-- Builder
      Person : -String name
      Person : -int age
      Person : +getName()
