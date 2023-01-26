@@ -2,7 +2,7 @@
 Builder Fluency Pattern
 
 ## Person Class & Builder
-```
+```mermaid
 classDiagram
      class Person {
          +String name
