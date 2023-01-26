@@ -6,14 +6,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PersonTest {
 
-    @Test
-    public void test() {
-        Person john = new Person.Builder()
-                .name("John Smith")
-                .age(35)
-                .build();
+  @Test
+  public void test() {
+    Person john = new Person.Builder()
+      .name("John Smith")
+      .age(35)
+      .build();
 
-        assertEquals(john.getName(),"John Smith");
-        assertEquals(john.getAge(), 35);
-    }
+    assertEquals(john.getName(), "John Smith");
+    assertEquals(john.getAge(), 35);
+  }
 }
