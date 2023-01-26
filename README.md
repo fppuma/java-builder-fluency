@@ -16,3 +16,11 @@ classDiagram
          +age()
      }
 ```
+
+## Example
+```java
+  Person john = new Person.Builder()
+      .name("John Smith")
+      .age(35)
+      .build();
+```
